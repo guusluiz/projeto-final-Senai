@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Hepta+Slab:wght@400;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
+.curso {
+    background-color: #C23C3C;
+    border-radius: 8px;
+    width: 935px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: 'Hepta Slab', serif;
+    color: #C23C3C;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
+h3 {
+    font-family: 'Hepta Slab', serif;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.curso p {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.conteudo-curso {
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.saiba-mais{
+    padding: 9px 7px;
+    background-color: #FCF7F7;
+    font-size: 18px;
+    color: black;
+    font-family: 'Hepta Slab', serif;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+}
+.valor-curso{
+    padding: 9px 7px;
+    background-color: #FCF7F7;
+    font-size: 18px;
+    color: black;
+    font-family: 'Hepta Slab', serif;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    margin: 0 10px 0 40px;
+}
+.botoes-curso{
+    justify-content: flex-end;
+}
+button:hover {
+    opacity: 0.86;
+}
+#saiba-mais-caixa1{
+    display: none;
+}

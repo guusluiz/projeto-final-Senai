@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Hepta+Slab:wght@400;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
+h2 {
+    color: white;
+    font-weight: 600;
+    font-family: 'Hepta Slab', serif;
+}
+#titulo-principal {
+    font-size: 38px;
+}
+.background {
+    background-image: linear-gradient(180deg, rgba(40, 22, 22, 0) 68.75%, hsla(0, 29%, 12%, 0.72) 78.65%), url("../img/Coréia\ do\ Norte.png");
+    background-repeat: no-repeat;
+    height: 488px;
+    width: 1050px;
+    align-items: end;
+    padding: 25px;
+    margin-right: 19px;
+    background-size: cover;
+}
+#titulo-secundario {
+    font-size: 20px;
+}
+.background2 {
+    background-repeat: no-repeat;
+    height: 236px;
+    width: 388px;
+    align-items: end;
+    padding: 9px;
+}
+.imagem1 {
+    background-image: linear-gradient(180deg, rgba(40, 22, 22, 0) 60.75%, hsla(0, 29%, 12%, 0.72) 70.65%), url(../img/Lula.png);
+}
+.imagem2 {
+    background-image: linear-gradient(180deg, rgba(40, 22, 22, 0) 60.75%, hsla(0, 29%, 12%, 0.72) 85.65%), url("../img/Concorrentes\ presidencia.png");
+}
+.subcards {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.espaco-imagens {
+    padding: 24px 0;
+}
+.artigos {
+    padding-top: 87px;
+}
+h3{
+    font-weight: 600;
+    font-family: 'Hepta Slab', serif;
+    color: #C23C3C;
+    font-size: 28px;
+    padding-bottom: 18px
+}
+.padding-texto {
+    padding: 10px 0 0 15px;
+}
+.padding-texto > p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+}
+.img-radius {
+    border-radius: 1px;
+}
+.artigos-decoration:hover    {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.artigos-decoration2:hover > div > h3{
+    text-decoration: underline;
+    text-decoration-color: #C23C3C;
+}
